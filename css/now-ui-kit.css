@@ -5122,6 +5122,7 @@ h6,
     font-family: 'Roboto', sans-serif;
     font-size: 1.1em;
     color: #ffffff;
+    font-weight: 100;
 }
 
 p {
@@ -5132,7 +5133,7 @@ p {
 }
 
 .title {
-    font-weight: 700;
+    font-weight: 200;
     padding-top: 30px;
 }
 
@@ -8106,6 +8107,10 @@ Created using IcoMoon - icomoon.io
     border-radius: 0;
 }
 
+.carousel-inner2{
+    padding-bottom: 30px;
+}
+
 .carousel .card {
     max-width: 650px;
     margin: 60px auto;
@@ -9160,6 +9165,11 @@ Created using IcoMoon - icomoon.io
     position: relative;
 }
 
+.landing-page .page-header2 {
+    min-height: 27vh;
+    position: relative;
+}
+
 .landing-page .page-header .container {
     text-align: left;
 }
@@ -9199,7 +9209,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .landing-page .section-contact-us .textarea-container {
-    margin: 40px 0;
+    margin: 30px 0;
 }
 
 .landing-page .section-contact-us a.btn {
@@ -9213,7 +9223,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .profile-page .page-header {
-    min-height: 550px;
+    min-height: 200px;
 }
 
 .profile-page .profile-container {
@@ -9627,6 +9637,15 @@ Created using IcoMoon - icomoon.io
     padding-top: 4vh;
 }
 
+#bg-text
+{
+    padding-top: 7vh;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+
+}
+
 #text {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -9642,7 +9661,22 @@ Created using IcoMoon - icomoon.io
     width: 81px;
 }
 
+.socialbuttons{
+    height: 40px;
+    padding: 2px;
+    color: #f2f2f2;
+}
+
+.spacer{
+    padding: 22px;
+}
+
 #gallery {
+    background: #FFFFFF;
+    margin: 0 auto;
+}
+
+#contactmap {
     background: #FFFFFF;
     text-align: center;
     margin: 0 auto;
@@ -9651,6 +9685,12 @@ Created using IcoMoon - icomoon.io
 #timeline {
     background: #f2f2f2;
     width: 100vw;
+}
+
+.bannerimg {
+    background: #f2f2f200;
+    vertical-align: center;
+    max-width: 300px;
 }
 
 #flavourtext{
@@ -9775,6 +9815,13 @@ Created using IcoMoon - icomoon.io
     position: relative;
 }
 
+.page-header2 {
+    max-height: 200px;
+    padding-top: 7vh;
+    color: #FFFFFF;
+    position: relative;
+}
+
 .page-header .page-header-image {
     position: absolute;
     background-size: cover;
@@ -9799,6 +9846,21 @@ Created using IcoMoon - icomoon.io
     text-align: center;
     color: #FFFFFF;
     padding: 0 15px;
+    width: 100%;
+    max-width: 880px;
+}
+
+.page-header .content-center2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 50px;
     width: 100%;
     max-width: 880px;
 }
@@ -10414,7 +10476,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .testimonials{
-    min-height: 45vh;
+    max-height: 45vh;
     background-size: cover;
     background-position: center center;
     margin: 0 auto;
@@ -10547,6 +10609,18 @@ Created using IcoMoon - icomoon.io
     background-color: #f2f2f2;
     background-size: cover;
     background-position: center center;
+}
+
+
+.top { 
+    z-index:1;
+    position: absolute;
+    top: calc(50vh - 140px);
+    right: calc(50vw - 390px)
+}
+
+.sizing{
+    max-width: 300px;
 }
 
 #map1 {
@@ -10929,6 +11003,10 @@ Created using IcoMoon - icomoon.io
 .testimonials-2 .carousel .carousel-control-next i 
 .carousel-logo{
     color: rgb(185, 185, 185);
+}
+
+.paddingcorrection{
+    padding-bottom: 22px;
 }
 
 .carousel-logo{
@@ -12535,3 +12613,4 @@ Created using IcoMoon - icomoon.io
         right: 14%;
     }
 }
+
