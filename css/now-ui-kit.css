@@ -9156,7 +9156,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .landing-page{
-    width: 100vw;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -9684,13 +9684,14 @@ Created using IcoMoon - icomoon.io
 
 #timeline {
     background: #f2f2f2;
-    width: 100vw;
 }
 
 .bannerimg {
     background: #f2f2f200;
-    vertical-align: center;
-    max-width: 300px;
+    z-index:1;
+    position: absolute;
+    top: calc(50vh - 250px);
+    left: calc(50vw - 400px)
 }
 
 #flavourtext{
@@ -9747,7 +9748,7 @@ Created using IcoMoon - icomoon.io
     color: #FFFFFF;
 }
 
-.section-image .nav-pills .nav-link {
+.fsection-image .nav-pills .nav-link {
     background-color: #FFFFFF;
 }
 
@@ -10488,9 +10489,6 @@ Created using IcoMoon - icomoon.io
     background-position: center center;
 }
 
-.wrapper{
-    width: 100vw;
-}
 
 .galleryitem1 {
     background-image: url(../img/gallery/lakestandin.jpg);
@@ -10611,20 +10609,11 @@ Created using IcoMoon - icomoon.io
     background-position: center center;
 }
 
-
-.top { 
-    z-index:1;
-    position: absolute;
-    top: calc(50vh - 140px);
-    right: calc(50vw - 390px)
-}
-
-.sizing{
-    max-width: 300px;
+.sizingbanner{
+    max-width: 800px;
 }
 
 #map1 {
-    min-width: 100vh;
     min-height: 90vh;
     background-color: grey;
   }
@@ -12614,3 +12603,44 @@ Created using IcoMoon - icomoon.io
     }
 }
 
+
+@media screen and (max-width: 517px) {
+    .gold-text-heading {
+        font-size: 1.8em;
+    }
+}
+
+@media screen and (max-width: 517px) {
+    .carousel-inner {
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width: 517px) {
+    .testimonials .carousel-item {
+        min-height: 60vh;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .sizingbanner {
+        max-width: 600px;
+        margin-left: calc(25vh - 100px);
+        margin-top: 10vh
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sizingbanner {
+        max-width: 450px;
+        margin-left: calc(25vw);
+        margin-top: 15vh
+}
+
+@media screen and (max-width: 517px) {
+    .sizingbanner {
+        max-width: 250px;
+        margin-left: calc(70vw + 30px);
+        margin-top: 25vh;
+    }
+}
