@@ -4953,7 +4953,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 400;
+    font-weight: 100;
 }
 
 small {
@@ -4986,6 +4986,8 @@ h2,
 .h2 {
     font-size: 2.5em;
     margin-bottom: 30px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
 }
 
 h3,
@@ -5024,7 +5026,8 @@ h5.category,
 h6,
 .h6 {
     font-size: 0.9em;
-    font-weight: 400;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
 }
 
 .small-white-text{
@@ -5034,11 +5037,10 @@ h6,
 }
 
 .small-gold-text{
-    font-size: 1.1em;
-    font-weight: 400;
+    font-size: 1em;
+    font-weight: 300;
     color: #958051;
-    padding-top: 15px;
-    padding-bottom: 20px;
+    padding-top: 30px;
 }
 
 .gold-text-flavour{
@@ -5116,6 +5118,13 @@ h6,
     font-family: 'Roboto', sans-serif;
     font-size: 1.1em;
     color: #6d6d6d;
+    font-weight: 400;
+}
+
+.grey-text-footer  {
+    font-family: 'Roboto', sans-serif;
+    color: #6d6d6d;
+    line-height:1.7;
 }
 
 .white-text-body  {
@@ -9920,20 +9929,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .page-header:before {
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-.page-header[filter-color="orange"] {
-    background: rgba(44, 44, 44, 0.2);
-    /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
-    /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
-    /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
-    /* For Firefox 3.6 to 15 */
-    background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
-    /* Standard syntax */
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .clear-filter:after,
@@ -10471,6 +10467,17 @@ Created using IcoMoon - icomoon.io
     position: relative;
     margin: 0 auto;
 }
+
+.container6 {
+    color: #FFFFFF;
+    max-width: 1300px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
 .smallgallery {
     height: 45vh;
 }
@@ -12614,6 +12621,13 @@ Created using IcoMoon - icomoon.io
 @media screen and (max-width: 517px) {
     .gold-text-heading {
         font-size: 1.8em;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .col-12 {
+        font-size: .8em;
+        padding-top:60px;
     }
 }
 
