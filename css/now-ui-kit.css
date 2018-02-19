@@ -5074,9 +5074,9 @@ h6,
 }
 
 .gold-text-heading{
-    font-size: 4em;
+    font-size: 3em;
     color: #958051;
-    font-family: 'Tinos', serif;
+    font-family: TimesNRMTPro;
     padding-bottom: 20px;
     padding-top: 15px
 }
@@ -6352,6 +6352,12 @@ Created using IcoMoon - icomoon.io
     src: url("../fonts/nucleo-outline.eot") format("embedded-opentype"), url("../fonts/nucleo-outline.woff2") format("woff2"), url("../fonts/nucleo-outline.woff") format("woff"), url("../fonts/nucleo-outline.ttf") format("truetype"), url("../fonts/nucleo-outline.svg") format("svg");
     font-weight: normal;
     font-style: normal;
+}
+
+.TimesNRMTPro { 
+	font-family: TimesNRMTPro;
+	font-weight: normal;
+	font-style: normal;
 }
 
 
@@ -9824,6 +9830,25 @@ Created using IcoMoon - icomoon.io
     position: relative;
 }
 
+.tint {
+    position: relative;
+  }
+  
+  .tint:hover:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #957f511c;
+    -moz-transition: all 2s linear;
+    -webkit-transition: all 2s linear;
+    -ms-transition: all 2s linear;
+    -o-transition: all 2s linear;
+    transition: all 2s linear;
+  }
 .page-header {
     min-height: 100vh;
     max-height: 200px;
@@ -10508,6 +10533,7 @@ Created using IcoMoon - icomoon.io
     background-image: url(../img/gallery/lakestandin.jpg);
     background-size: cover;
     background-position: center center;
+    background-color: #958051;
 }
 
 .galleryitem2 {
@@ -10558,49 +10584,49 @@ Created using IcoMoon - icomoon.io
 }
 
 .galleryitem10 {
-    background-image: url(../img/gallery/square_0007_beaches.jpg);
+    background-image: url(../img/gallery/001_preview.jpeg);
     background-size: cover;
     background-position: center center;
 }
 
 .galleryitem11 {
-    background-image: url(../img/gallery/square_0006_wine-famrs.jpg);
+    background-image: url(../img/gallery/002_preview.jpeg);
     background-size: cover;
     background-position: center center;
 }
 
 .galleryitem12 {
-    background-image: url(../img/gallery/square_0005_scenic-tours.jpg);
+    background-image: url(../img/gallery/003_preview.jpeg);
     background-size: cover;
     background-position: center center;
 }
 
 .galleryitem13 {
-    background-image: url(../img/gallery/square_0004_art.jpg);
+    background-image: url(../img/gallery/004_preview.jpeg);
     background-size: cover;
     background-position: center center;
 }
 
 .galleryitem14 {
-    background-image: url(../img/gallery/square_0003_dining.jpg);
+    background-image: url(../img/gallery/005_preview.jpeg);
     background-size: cover;
     background-position: center center;
 }
 
 .galleryitem15 {
-    background-image: url(../img/gallery/square_0002_tastings.jpg);
+    background-image: url(../img/gallery/006_preview.jpeg);
     background-size: cover;
     background-position: center center;
 }
 
 .galleryitem16 {
-    background-image: url(../img/gallery/square_0001_whale-watching.jpg);
+    background-image: url(../img/gallery/007_preview.jpeg);
     background-size: cover;
     background-position: center center;
 }
 
 .galleryitem17 {
-    background-image: url(../img/gallery/square_0000_events.jpg);
+    background-image: url(../img/gallery/008_preview.jpeg);
     background-size: cover;
     background-position: center center;
 }
@@ -12620,7 +12646,7 @@ Created using IcoMoon - icomoon.io
 
 @media screen and (max-width: 517px) {
     .gold-text-heading {
-        font-size: 1.8em;
+        font-size: 1.5em;
     }
 }
 
