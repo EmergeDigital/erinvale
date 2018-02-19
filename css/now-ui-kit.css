@@ -12650,6 +12650,12 @@ Created using IcoMoon - icomoon.io
     }
 }
 
+@media screen and (max-width: 560px) {
+    .info .info-hover {
+        padding-left: -2%;
+    }
+}
+
 @media screen and (max-width: 880px) {
     .col-12 {
         font-size: .8em;
