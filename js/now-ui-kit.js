@@ -91,7 +91,12 @@ $(document).ready(function() {
 
     // Activate Carousel
     $('.carousel').carousel({
-        interval: 4000
+        autoplay: true,
+        autoplayTimeout: 2500,
+        autoplayHoverPause: false,
+        pause: false,
+        // interval: 2500,
+        stopOnHover: false
     });
 
     if ($(".datetimepicker").length != 0) {

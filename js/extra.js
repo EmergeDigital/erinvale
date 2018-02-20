@@ -63,9 +63,11 @@ function main() {
   // When the DOM is ready, run this function
     //Set the carousel options
     $('#quote-carousel').carousel({
-      pause: true,
+      pause: false,
       interval: 4000,
-      items: 1
+      items: 1,
+      stopOnHover: false
+
     });
 
 	});

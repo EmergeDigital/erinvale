@@ -430,12 +430,12 @@
 <!-- FOOD AND WINE GALLERY -->
         <div id="gallery" class="row text-center">
                 <div class="col-md-4 col-12 col-sm-4 smallgallery galleryitem7 nopadding tint">
-                    <div class="col-12" style="padding-top:30%">
+                    <div class="col-12" style="padding-top:28%">
                         <h2>THE CLUBHOUSE</h2>		
                     </div>
                 </div>
                 <div class="col-md-4 col-12 col-sm-4 smallgallery galleryitem8 nopadding tint">
-                    <div class="col-12" style="padding-top:27%">
+                    <div class="col-12" style="padding-top:28%">
                         <h2>EVENTS & FUNCTIONS</h2>		
                     </div>
                 </div>
@@ -558,7 +558,7 @@
         <div class="section-navbarbtn">
                 <div class="container6 col-sm-12">
                         <div class="row">
-                          <div class="col-sm-7 five-three">
+                          <div class="col-sm-7 five-three" style="padding-right:0">
                             <div class="row">
                               <div class="col-sm-4">
                                 <div class="info info-hover">
@@ -585,7 +585,7 @@
                                 </div>
                               </div>
                               <div class="col-sm-4">
-                                <div class="info info-hover" style="padding-left:2%">
+                                <div class="info info-hover">
                                     <a href="https://www.emergestudio.co.za/demo/golf/clubhouse/">
                                         <div class="icon icon-info icon-circle">
                                             <div class="buttons">
@@ -598,7 +598,7 @@
                               </div><!-- end inner row -->
                             </div>
                           </div>
-                          <div class="col-sm-5 five-two">
+                          <div class="col-sm-5 five-two" style="padding-left:0">
                             <div class="row">
                               <div class="col-sm-6">
                                 <div class="info info-hover">
@@ -689,53 +689,4 @@
 <script src="js/map.js"></script>
 <script async defer src ="https://maps.googleapis.com/maps/api/js?key=AIzaSyBD1jv7eUQPKhKLOQ04cpoxJtm4teEfRNE&callback=initialize">
 </script>
-<script type="text/javascript">
-    $(document).ready(function() {
-
-        var slider2 = document.getElementById('sliderRefine');
-
-        noUiSlider.create(slider2, {
-            start: [42, 880],
-            connect: true,
-            range: {
-                'min': [30],
-                'max': [900]
-            }
-        });
-
-        var limitFieldMin = document.getElementById('price-left');
-        var limitFieldMax = document.getElementById('price-right');
-
-        slider2.noUiSlider.on('update', function(values, handle) {
-            if (handle) {
-                limitFieldMax.innerHTML = $('#price-right').data('currency') + Math.round(values[handle]);
-            } else {
-                limitFieldMin.innerHTML = $('#price-left').data('currency') + Math.round(values[handle]);
-            }
-        });
-
-        var slider2 = document.getElementById('sliderRefine');
-
-        noUiSlider.create(slider2, {
-            start: [42, 880],
-            connect: true,
-            range: {
-                'min': [30],
-                'max': [900]
-            }
-        });
-
-        var limitFieldMin = document.getElementById('price-left');
-        var limitFieldMax = document.getElementById('price-right');
-
-        slider2.noUiSlider.on('update', function(values, handle) {
-            if (handle) {
-                limitFieldMax.innerHTML = $('#price-right').data('currency') + Math.round(values[handle]);
-            } else {
-                limitFieldMin.innerHTML = $('#price-left').data('currency') + Math.round(values[handle]);
-            }
-        });
-    });
-</script>
-<script src="js/owl.carousel.js"></script>
 </html>
