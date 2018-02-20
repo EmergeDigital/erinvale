@@ -92,7 +92,7 @@ $(document).ready(function() {
     // Activate Carousel
     $('.carousel').carousel({
         autoplay: true,
-        autoplayTimeout: 2500,
+        autoplayTimeout: 2000,
         autoplayHoverPause: false,
         pause: false,
         // interval: 2500,

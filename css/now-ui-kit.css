@@ -5031,9 +5031,9 @@ h6,
 }
 
 .small-white-text{
-    font-size: .9em;
+    font-size: 13px;
     font-weight: 300;
-    color: #ffffff;
+    color: #888888;
 }
 
 .small-gold-text{
@@ -8839,13 +8839,13 @@ Created using IcoMoon - icomoon.io
     left: 0;
 }
 
-.footer {
-    padding: 1.125rem 0;
+.footer {    
+    padding: 12px 0 10px 0;
     text-align: center;
 }
 
 .footer.footer-default {
-    background-color: #333333;
+    background-color: #fff;
 }
 
 .footer.footer-white {
