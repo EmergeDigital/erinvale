@@ -28,10 +28,10 @@ function main() {
     /*====================================
     Menu Active Calling Scroll Spy
     ======================================*/
-    $('body').scrollspy({ 
-      target: '.navmenu',
-      offset: 80,
-    });
+    // $('body').scrollspy({ 
+    //   target: '.navmenu',
+    //   offset: 80,
+    // });
 
 
     /* ==============================================

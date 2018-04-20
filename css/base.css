@@ -1595,3 +1595,13 @@
     -webkit-animation-name: Floatingx;
     -moz-animation-name: Floatingx;
 }
+
+.grey-text-footer a {
+    color: #6d6d6d !important;
+}
+
+@media (max-width: 575px) {
+    .five-two, .five-three {
+        padding: 0 !important;
+    }
+}
