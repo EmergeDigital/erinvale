@@ -678,7 +678,7 @@
     background-color: #FF3636;
 }
 
-.section-isometricGrids {
+/*.section-isometricGrids {
     /* Header */
     /* Top Navigation Style */
     /* Demo links */
@@ -688,7 +688,7 @@
     /* All individual isometric grid layouts (static and scrollable) */
     /* Shadow effect */
     /* All individual isometric grid layouts (static and scrollable) */
-}
+/*}
 
 .section-isometricGrids .button-menu {
     width: 50px;
@@ -5036,11 +5036,23 @@ h6,
     color: #888888;
 }
 
+.small-grey-text{
+    font-size: 13px;
+    font-weight: 300;
+    color: grey;
+}
+
 .small-gold-text{
     font-size: 1em;
     font-weight: 300;
     color: #958051;
     padding-top: 30px;
+}
+
+.small-gold-text2{
+    font-size: 13px;
+    font-weight: 300;
+    color: #958051;
 }
 
 .gold-text-flavour{
@@ -7082,6 +7094,18 @@ Created using IcoMoon - icomoon.io
     max-width: 80px;
     width: 80px;
     height: 80px;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 2px 9px 10px 2px rgba(0, 0, 0, 0.3);
+    font-size: 0.7142em;
+    background-color: #957d5100;
+    position: relative;
+}
+
+.info .icon.icon-login {
+    max-width: 300px;
+    width: 80px;
+    height: 100px;
     margin: 0 auto;
     border-radius: 50%;
     box-shadow: 2px 9px 10px 2px rgba(0, 0, 0, 0.3);
@@ -12696,4 +12720,5 @@ Created using IcoMoon - icomoon.io
         margin-left: calc(70vw + 30px);
         margin-top: 25vh;
     }
+}
 }
